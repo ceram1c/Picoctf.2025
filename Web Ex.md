@@ -45,8 +45,25 @@
 
 ![image](https://github.com/user-attachments/assets/50e41e6e-2d21-4f36-8169-8c3255af2fed)
 
-1. `ssti` 
+1. `ssti` à viết tắt của Server-Side Template Injection (tấn công chèn mã vào lỗ hổng), đây là 1 lỗ hổng cảu trang web khi xử lý input của người dùng, họ có thể chèn mã độc vào input có thể gây ra nhiều hậu quả
+2. dựa vào tên đề bài ta thử trang web bằng cách nhập `{{ 7*7 }}` và trang web trả lại kết quả là 49 => trang web có lỗ hổng và có thể sử dụng các câu lệnh để bypass trang web
+3. tiếp theo ta cần kiểm tra trang web xem trang web sử dụng framework nào để dùng câu lệnh của framework đó để bypass
+4. ta check bằng devtool của trình duyệt và thấy
+![image](https://github.com/user-attachments/assets/096a92f3-6960-4326-aa83-9ba60793bc4e)
 
+
+           Werkzeug là WSGI toolkit phổ biến được Flask sử dụng.
+           Python/3.8.10 cho thấy backend chạy bằng Python.
+           Flask mặc định dùng Jinja2 để render templates, nên có thể thử khai thác SSTI. 
+
+5. nhập `{{ cycler.__init__.__globals__.os.popen('ls -la').read() }}` để liệt kê các file
+
+           đây là 1 lệnh thuộc Jinja2
+           cycle.__init__.__globals__: cho phép ta truy cập tới biến toàn cục bộ python kể các cac mô dun hệ thống
+           os.popen(): mở 1 tiến trình con chạy lệnh shell nhắn thực thi lệnh `ls -la`
+           .read(): để đọc ra kết quả
+
+6. rồi cat file flag
 
 
 
