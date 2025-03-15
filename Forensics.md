@@ -22,3 +22,21 @@
 2. Stepic là một thư viện Python dùng để giấu tin trong ảnh
 3. vậy việc ta là giải mã bằng stepic bức ảnh cờ của nước không tồn tại đó bằng python
 
+https://github.com/ceram1c/Picoctf.2025/blob/2bbe46a707011a9a776cb1e50892a31f2de21bce/Picofile/stepic_slove.py
+
+# Bitlocker-1
+
+![image](https://github.com/user-attachments/assets/a749992d-03fb-449c-a9ce-90aad8cbcd47)
+
+1. bài cho ta 1 file ổ đĩa ảo
+2. nhưng để mở được ta cần có mật khẩu
+3. vậy việc ta cần làm là bypass ổ đĩa này thông qua việc trích xuất hash của file để tìm mật khẩu
+4. sử dụng `bitlocker2john bitlocker-1.dd > bitlocker.hash` để trích xuất hash của ổ đĩa
+5. tải file `rockyou.txt` về máy sau đó dùng `hashcat` để tấn công brute-force bypass mật khẩu `hashcat -m 22100 bitlocker.hash rockyou.txt --show`
+
+       rockyou.txt: là file chứa hơn 14 triệu mật khẩu phổ biến được sử dụng trong các cuộc tấn công brute-force
+
+6. `sudo losetup -fP bitlocker-1.dd` để hiển thị ổ đĩa ảo sau đó dùng mật khẩu đã bypass mở khóa rồi tìm file flag
+
+ 
+
