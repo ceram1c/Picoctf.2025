@@ -43,7 +43,9 @@
 
 # SSTI1
 
+![image](https://github.com/user-attachments/assets/50e41e6e-2d21-4f36-8169-8c3255af2fed)
 
+1. `ssti` 
 
 
 
