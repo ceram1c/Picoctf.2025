@@ -16,7 +16,7 @@ source code: [https://github.com/ceram1c/Picoctf.2025/blob/a7133174999319296f39a
 1. source code bài này là code mã hóa RSA file flag.txt rồi trả về 3 output N, e, ciphertext
 2. sau đó ta có thể dùng 3 output của bài để giải mã RSA bằng python để đọc nội dung trước khi bị mã hóa
 
-source slove: https://github.com/ceram1c/Picoctf.2025/blob/ddef5134f4875756290488a9e0186ac4a869dd17/RS488a9e0186
+source slove: [https://github.com/ceram1c/Picoctf.2025/blob/ddef5134f4875756290488a9e0186ac4a869dd17/RS488a9e0186](https://github.com/ceram1c/Picoctf.2025/blob/575a7a79312bb1b35c5a09500efe6c6eeccc448a/Picofile/RSA_slove)
 
 # Guess My Cheese (Part 1)
 
