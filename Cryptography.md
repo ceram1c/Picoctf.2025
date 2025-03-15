@@ -21,3 +21,13 @@ source slove: [https://github.com/ceram1c/Picoctf.2025/blob/ddef5134f48757562904
 # Guess My Cheese (Part 1)
 
 ![image](https://github.com/user-attachments/assets/14afb021-905c-49d7-8355-1c0c89bb05b1)
+
+1. theo như đề bài ta cần giải mã được mật mã từ host để nhận flag
+2. theo như hint ta có thể xác định đây là loại mã `Affine Cipher`
+![image](https://github.com/user-attachments/assets/3e7da9f5-38ad-4992-8a10-97c03095fb54)
+
+
+3. theo như minigame của host cho phép ta được phép hỏi mật mã của tên loại phô mai là gì 2 lần, dựa vào 2 kết quả trên ta có thể tính ra được a và b để giải mã ngược lại mật mã host muốn ta giải từ đầu
+![image](https://github.com/user-attachments/assets/89e26d0d-bee1-4612-a913-782222b25add)
+
+
