@@ -14,3 +14,4 @@ source code: https://github.com/ceram1c/Picoctf.2025/blob/30ee188cc218a68803709e
 1. theo như source code của bài là 1 code để mã hóa Blockchain
 2. encrypted file của bài là 1 đoạn blockchain đã được mã hóa, việc của chúng ta chỉ là viết 1 đoạn code python để giải mã đoạn code đó
 
+https://github.com/ceram1c/Picoctf.2025/blob/8f1c60cefb7f71bf67782d0d12bf14c2da632ee1/Picofile/blockchain_slove.py
