@@ -11,7 +11,7 @@
 
 ![image](https://github.com/user-attachments/assets/5efc8ef8-6b7c-462d-881c-1589163d59ee)
 
-source code: https://github.com/ceram1c/Picoctf.2025/blob/a7133174999319296f39aedef46e176fb966b16a/RSA_crypto
+source code: [https://github.com/ceram1c/Picoctf.2025/blob/a7133174999319296f39aedef46e176fb966b16a/RSA_crypto](https://github.com/ceram1c/Picoctf.2025/blob/3740b415533de498933032954b6f4be1c3fe9a77/Picofile/RSA_source)
 
 1. source code bài này là code mã hóa RSA file flag.txt rồi trả về 3 output N, e, ciphertext
 2. sau đó ta có thể dùng 3 output của bài để giải mã RSA bằng python để đọc nội dung trước khi bị mã hóa
