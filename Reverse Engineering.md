@@ -2,7 +2,7 @@
 
 <h3>ĐỀ BÀI: Lyrics jump from verses to the refrain kind of like a subroutine call. There's a hidden refrain this program doesn't print by default. Can you get it to print it? There might be something in it for you. The program's source code can be downloaded here. Connect to the program with netcat: $ nc verbal-sleep.picoctf.net 56688</h3>
 
-source code: 
+source code: https://github.com/ceram1c/Picoctf.2025/blob/dca014c0df5fea885db838137eae4cddd29ed5c7/Picofile/lyric-reader.py
 
 **Phân tích**: đề bài bảo host là 1 đoạn nhạc ta có thể tương tác thông qua `Crow`, ta cần in ra được 1 đoạn được ẩn trong bài không
 
