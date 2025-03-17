@@ -13,8 +13,6 @@ chỉ đơn giản là nc vô host và bấm enter rồi chọn a/b/c cho tới 
 
 <h3>ĐỀ BÀI: Have you heard of Rust? Fix the syntax errors in this Rust file to print the flag! Download the Rust code here. </h3>
 
-![image](https://github.com/user-attachments/assets/e19c99e9-bb71-47ba-b08f-08a98a349e36)
-
 **Phân tích**: bài cho 1 file code bị lỗi và 0 thể chạy được với ngôn ngữ rust
 
 source file: https://github.com/ceram1c/Picoctf.2025/tree/ff74afe287b2cf10baff08cbf2fa9f3019770ee0/Picofile/fixme1
@@ -37,4 +35,22 @@ trong rust mỗi câu lệnh đều kết thúc bằng dấu `;`
 
 `println!` sử dụng `{}` để in ra giá trị biết nên `:?` không phải cú pháp hợp lệ 
 
-3. souce code fix 
+3. souce code fix
+
+
+
+# Rust fixme 2
+
+<h3>ĐỀ BÀI: The Rust saga continues? I ask you, can I borrow that, pleeeeeaaaasseeeee? Download the Rust code here. </h3>
+
+**Phân tích**: bài cho 1 file code bị lỗi và 0 thể chạy được với ngôn ngữ rust
+
+source file:
+
+**hướng giải**: fix hết code bị lỗi tại file `main.rs` sau đó chạy code để nhận flag 
+
+**Giải**:
+
+1. trong quá trình fix luôn có các note hint của bài tìm hiểu và làm theo
+
+
