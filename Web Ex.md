@@ -12,9 +12,10 @@
 1. ta sử dụng dev tool để đọc phần cookie của trang web như phân tích, do chưa có bất kì dữ liệu nào khi mới đăng nhập vào web, nên thử đăng nhập với tài khoản mật khẩu bất kì để cập nhật thêm cookie cho trang web sau đó đọc tệp cookie đó.
 2. ta sẽ thấy được 1 đoạn base64 
 
-![image](https://github.com/user-attachments/assets/7c4fb121-335a-49c4-8311-b06819b21f6e)
+![image](https://github.com/user-attachments/assets/8a39a8b7-1eab-408a-a2be-86b30cbf7c07)
 
-3. decode đoạn base64 rồi nộp flag
+
+3. decode đoạn base64 rồi nộp flag 
 
 # head-dump
 
