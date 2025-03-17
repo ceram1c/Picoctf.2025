@@ -76,14 +76,25 @@ trong rust `&String` là tham chiếu bất biến (không thay đổi) nhưng t
 
 **Phân tích**: bài cho 1 file code bị lỗi và 0 thể chạy được với ngôn ngữ rust
 
-source file: 
+source file: https://github.com/ceram1c/Picoctf.2025/tree/0dbf36185f023b5a23c7151c56b49395986803b6/Picofile/fixme3
 
 **hướng giải**: fix hết code bị lỗi tại file `main.rs` sau đó chạy code để nhận flag 
 
 **Giải**:
 
+1. trong quá trình fix luôn có các note hint của bài tìm hiểu và làm theo
 
+![image](https://github.com/user-attachments/assets/b7edd4cd-0666-4b3b-8080-4516c7a0f1ef)
 
+code bị lỗi vì rust yêu cầu các thao tác không an toàn bọc trong 1 khối `unsafe{}` cụ thể hàm `std::slice::from_raw_parts` trong bài bị cho là 1 thao tác không an toàn vì nó có thể dẫn đến hành vi không xác định nếu con trỏ hoặc độ dài không hợp lệ.
+
+chỉ cần bọc đoạn code trong 1 khối `unsafe{}` như sau:
+
+![image](https://github.com/user-attachments/assets/b40f1ef6-d9dd-4b0c-bf6e-6df27a067706)
+
+3. source code fix: https://github.com/ceram1c/Picoctf.2025/tree/69a61fe08d936eee0e67be1a147fb69f6a86d0f7/Picofile/fixme3_slove
+
+![image](https://github.com/user-attachments/assets/a93808c4-5192-4f35-918a-83be3b4bf175)
 
 
 
