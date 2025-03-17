@@ -35,8 +35,11 @@ trong rust mỗi câu lệnh đều kết thúc bằng dấu `;`
 
 `println!` sử dụng `{}` để in ra giá trị biết nên `:?` không phải cú pháp hợp lệ 
 
-3. souce code fix
 
+
+3. souce code fix: https://github.com/ceram1c/Picoctf.2025/tree/3c712ee784f77d1a548c6e769a4d109904f37649/Picofile/fixme1%20_slove
+
+![image](https://github.com/user-attachments/assets/ff048461-b760-49ac-801a-1f7aa2667d59)
 
 
 # Rust fixme 2
@@ -52,5 +55,6 @@ source file:
 **Giải**:
 
 1. trong quá trình fix luôn có các note hint của bài tìm hiểu và làm theo
+
 
 
