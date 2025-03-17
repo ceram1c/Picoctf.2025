@@ -1,6 +1,6 @@
 # Cookie Monster Secret Recipe
 
-<h3> **đề bài**: Cookie Monster has hidden his top-secret cookie recipe somewhere on his website. As an aspiring cookie detective, your mission is to uncover this delectable secret. Can you outsmart Cookie Monster and find the hidden recipe? You can access the Cookie Monster here and good luck </h3>
+<h3>ĐỀ BÀI: Cookie Monster has hidden his top-secret cookie recipe somewhere on his website. As an aspiring cookie detective, your mission is to uncover this delectable secret. Can you outsmart Cookie Monster and find the hidden recipe? You can access the Cookie Monster here and good luck </h3>
 
 **Phân tích**: đề bài có đề cập khá nhiều về `cookie`
 
@@ -15,11 +15,17 @@
 ![image](https://github.com/user-attachments/assets/8a39a8b7-1eab-408a-a2be-86b30cbf7c07)
 
 
-3. decode đoạn base64 rồi nộp flag 
+3. decode đoạn base64 rồi nộp flag
+
+![image](https://github.com/user-attachments/assets/164540f1-2d1c-4efd-a907-1a30909f640f)
+
 
 # head-dump
 
-![image](https://github.com/user-attachments/assets/3d6c6438-bf1c-4002-a84a-8979b00251cc)
+<h3>ĐỀ BÀI: Welcome to the challenge! In this challenge, you will explore a web application and find an endpoint that exposes a file containing a hidden flag. The application is a simple blog website where you can read articles about various topics, including an article about API Documentation. Your goal is to explore the application and find the endpoint that generates files holding the server’s memory, where a secret flag is hidden.
+Additional details will be available after launching your challenge instance. </h3>
+
+**phân tích**: 
 
 1. đề bài nói rằng đây là 1 trang blog bao gồm cả 'API Documentation' khá là đáng ngờ khi chỉ riêng điều này được liệt kê
 
