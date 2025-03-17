@@ -1,8 +1,10 @@
 # Cookie Monster Secret Recipe
 
-![image](https://github.com/user-attachments/assets/7e833cc6-02ab-429e-a247-af91a9d8dbfd)
+<h4> **đề bài**: Cookie Monster has hidden his top-secret cookie recipe somewhere on his website. As an aspiring cookie detective, your mission is to uncover this delectable secret. Can you outsmart Cookie Monster and find the hidden recipe? You can access the Cookie Monster here and good luck <h4>
 
-1. bài cho 1 số hint về cookie của trang web này => điều đầu tiên ta nghĩ tới là kiếm tra cookie của trang web này
+**Phân tích**
+
+. bài cho 1 số hint về cookie của trang web này => điều đầu tiên ta nghĩ tới là kiếm tra cookie của trang web này
 
 ![image](https://github.com/user-attachments/assets/7c4fb121-335a-49c4-8311-b06819b21f6e)
 
