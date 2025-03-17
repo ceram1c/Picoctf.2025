@@ -48,13 +48,46 @@ trong rust mỗi câu lệnh đều kết thúc bằng dấu `;`
 
 **Phân tích**: bài cho 1 file code bị lỗi và 0 thể chạy được với ngôn ngữ rust
 
-source file:
+source file: https://github.com/ceram1c/Picoctf.2025/tree/3de32438106b69dc68dfa6d372912dc851d206c3/Picofile/fixme2
 
 **hướng giải**: fix hết code bị lỗi tại file `main.rs` sau đó chạy code để nhận flag 
 
 **Giải**:
 
 1. trong quá trình fix luôn có các note hint của bài tìm hiểu và làm theo
+
+![image](https://github.com/user-attachments/assets/15011305-edb3-4384-9914-7dad45d5876a)
+
+trong rust `&String` là tham chiếu bất biến (không thay đổi) nhưng tham số `borrowed_string` cần truyền vào 1 tham số có thể thay đổi nên sử thành `&mut String`
+
+![image](https://github.com/user-attachments/assets/d8e4f1ee-34bd-4a19-91f6-d12eeadddfdb)
+
+điều tương tự cũng xảy ra với tham số `party_foul`
+
+2. source code fix: https://github.com/ceram1c/Picoctf.2025/tree/3de32438106b69dc68dfa6d372912dc851d206c3/Picofile/fixme2_slove
+
+![image](https://github.com/user-attachments/assets/3fcf4f3d-5caf-408f-a371-b723c16e03a9)
+
+
+
+# Rust fixme 3
+
+<h3>ĐỀ BÀI: Have you heard of Rust? Fix the syntax errors in this Rust file to print the flag! Download the Rust code here. </h3>
+
+**Phân tích**: bài cho 1 file code bị lỗi và 0 thể chạy được với ngôn ngữ rust
+
+source file: 
+
+**hướng giải**: fix hết code bị lỗi tại file `main.rs` sau đó chạy code để nhận flag 
+
+**Giải**:
+
+
+
+
+
+
+
 
 
 
