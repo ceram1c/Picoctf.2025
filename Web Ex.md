@@ -1,14 +1,19 @@
 # Cookie Monster Secret Recipe
 
-<h4> **đề bài**: Cookie Monster has hidden his top-secret cookie recipe somewhere on his website. As an aspiring cookie detective, your mission is to uncover this delectable secret. Can you outsmart Cookie Monster and find the hidden recipe? You can access the Cookie Monster here and good luck <h4>
+<h3> **đề bài**: Cookie Monster has hidden his top-secret cookie recipe somewhere on his website. As an aspiring cookie detective, your mission is to uncover this delectable secret. Can you outsmart Cookie Monster and find the hidden recipe? You can access the Cookie Monster here and good luck </h3>
 
-**Phân tích**
+**Phân tích**: đề bài có đề cập khá nhiều về `cookie`
 
-. bài cho 1 số hint về cookie của trang web này => điều đầu tiên ta nghĩ tới là kiếm tra cookie của trang web này
+        cookie: là các tập dữ liệu nhỏ mà trình duyệt lưu trữ trên máy, dùng để lưu trữ thông tim về các phiên làm việc như: lựa chọn or đăng nhập
+
+**hướng giải**: việc đầu tiên nghĩ đến sẽ làm đọc phần dữ liệu cookie của trang web
+
+**Giải**:
+1. ta sử dụng dev tool để đọc phần cookie của trang web như phân tích, do chưa có bất kì dữ liệu nào khi mới đăng nhập vào web, nên thử đăng nhập với tài khoản mật khẩu bất kì để cập nhật thêm cookie cho trang web sau đó đọc tệp cookie đó.
+2. ta sẽ thấy được 1 đoạn base64 
 
 ![image](https://github.com/user-attachments/assets/7c4fb121-335a-49c4-8311-b06819b21f6e)
 
-2. có vẻ cookie của trang web chưa có gì, thử đăng nhập với tên và mật khẩu bất kì, ta sẽ thấy 1 đoạn base64 xuất hiện trong data cookie
 3. decode đoạn base64 rồi nộp flag
 
 # head-dump
