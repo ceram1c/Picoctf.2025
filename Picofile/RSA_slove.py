@@ -31,7 +31,7 @@ def is_prime(n, k=5):
             return False
     return True
 
-if is_prime(q):
+is_prime(q):
     # Tính φ(N) và khóa giải mã d
     phi = q - 1
     d = pow(e, -1, phi)
@@ -40,5 +40,3 @@ if is_prime(q):
     # Chuyển đổi sang bytes và in flag
     flag = long_to_bytes(m).decode()
     print(flag)
-else:
-    print("q không phải là số nguyên tố. Cần phân tích thêm q.")
