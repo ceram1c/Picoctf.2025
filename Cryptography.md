@@ -1,11 +1,15 @@
 # hashcrack
+<h3>ĐỀ BÀI: A company stored a secret message on a server which got breached due to the admin using weakly hashed passwords. Can you gain access to the secret stored within the server? Access the server using nc verbal-sleep.picoctf.net 51759 </h3>
 
-![image](https://github.com/user-attachments/assets/832488bc-c58d-4ca6-9e5d-13d932a717a6)
+**Phân tích**: đơn giản là bài này sử dụng 1 số đoạn mã khác nhau là password
 
-1. đơn giản là bài này sử dụng 1 số đoạn mã khác nhau là password, ta cần decode để rồi trả về input cho bài để nhận flag
-2. sử dụng 1 số công cụ như chatgpt để phân biệt loại hash và decode theo loại hash đó
+**hướng giải**: ta cần decode để rồi trả về input cho bài để nhận flag
 
-![image](https://github.com/user-attachments/assets/276439a6-7101-430a-baa7-4a181a3c9828)
+**Giải**:
+sử dụng 1 số công cụ như chatgpt để phân biệt loại hash và decode theo loại hash đó
+
+![image](https://github.com/user-attachments/assets/8d898bed-b3bb-4dfa-9c99-56d7faf4b04a)
+
 
 # EVEN RSA CAN BE BROKEN???
 
